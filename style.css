@@ -3834,4 +3834,39 @@ footer {
   }
 }
 }
+/* FINAL FIX — REMOVE EXTRA MOBILE TOP BAR LINES */
+@media (max-width: 768px) {
+  #navbar {
+    height: 58px !important;
+    min-height: 58px !important;
+    background: var(--coffee) !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  .nav-inner {
+    height: 58px !important;
+    min-height: 58px !important;
+    padding: 0 22px !important;
+    border: none !important;
+  }
+
+  #navbar::before,
+  #navbar::after,
+  .nav-inner::before,
+  .nav-inner::after {
+    display: none !important;
+    content: none !important;
+  }
+
+  .hero {
+    padding-top: 58px !important;
+    margin-top: 0 !important;
+  }
+
+  .hero::before,
+  .hero::after {
+    display: none !important;
+  }
+}
 
