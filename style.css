@@ -3742,4 +3742,96 @@ footer {
   .logo span {
     font-size: 16px;
   }
+  /* ===== FINAL MOBILE HERO FIX ===== */
+@media (max-width: 768px) {
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  body {
+    min-width: 0 !important;
+  }
+
+  #navbar {
+    height: 70px;
+    min-height: 70px;
+    padding: 0;
+  }
+
+  .nav-inner {
+    height: 70px;
+    min-height: 70px;
+    padding: 0 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo {
+    font-size: 1.3rem;
+    line-height: 1;
+  }
+
+  .logo img {
+    width: 26px;
+  }
+
+  .hamburger {
+    width: 30px;
+    height: 22px;
+  }
+
+  .hero {
+    min-height: 100svh;
+    padding-top: 70px !important;
+    display: flex;
+    align-items: center;
+  }
+
+  .hero-content {
+    padding-top: 0 !important;
+    transform: translateY(-20px);
+  }
+
+  .hero-kicker {
+    font-size: 0.75rem;
+    letter-spacing: 0.22em;
+    margin-bottom: 1.2rem;
+  }
+
+  .hero-title {
+    font-size: clamp(3.4rem, 15vw, 4.8rem);
+    line-height: 0.92;
+    white-space: normal;
+    text-align: center;
+  }
+
+  .hero-sub-wide {
+    max-width: 92%;
+    margin: 1.5rem auto 0;
+    font-size: 1rem;
+    line-height: 1.75;
+    text-align: center;
+  }
+
+  .hero-stats {
+    gap: 1.2rem;
+    margin-top: 2rem;
+  }
+
+  .hero-stat strong,
+  .stat-num {
+    font-size: 2.5rem;
+  }
+
+  .hero-marquee {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
 }
+}
+
