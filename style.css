@@ -15,7 +15,7 @@ html {
 }
 @font-face {
   font-family: "Dovde";
-  src: url("..Dovde-Black.ttf") format("truetype");
+  src: url("..assets/fonts/Dovde-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }
@@ -4044,5 +4044,7 @@ footer {
     transform: translateY(2px) !important;
   }
 }
-
+.logo span {
+  font-family: "Dovde", sans-serif !important;
+}
 
