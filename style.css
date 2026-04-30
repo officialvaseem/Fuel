@@ -3953,14 +3953,23 @@ footer {
   }
 
   .logo img {
-    width: 30px !important;
+    width: 34px;
+    height: auto;
+    display: block;
   }
 
   .logo span {
-    display: inline-block !important;
+    display: flex !important;
+    align-items: center;
+    height:34px;
     font-size: 1rem !important;
     color: var(--cream) !important;
   }
+
+ .logo span {
+  color: #F3E9DC; /* premium cream */
+  opacity: 1; /* remove faded look */
+}
 
   .hamburger {
     display: flex !important;
