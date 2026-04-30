@@ -3966,10 +3966,17 @@ footer {
     color: var(--cream) !important;
   }
 
+  .logo span {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 3px;
+  font-size: 24px;
+  color: #f5e6d8; /* cream */
+}
+
  .logo span {
   color: #F3E9DC; /* premium cream */
   opacity: 1; /* remove faded look */
-}
+ }
 
   .hamburger {
     display: flex !important;
