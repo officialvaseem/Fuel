@@ -13,6 +13,12 @@
 html {
   scroll-behavior: smooth;
 }
+@font-face {
+  font-family: "Dovde";
+  src: url("../fonts/Dovde-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
 body {
   background: var(--coffee);
   color: var(--cream);
@@ -4003,6 +4009,39 @@ footer {
 
   .hero {
     padding-top: 70px !important;
+  }
+}
+.logo {
+  display: flex !important;
+  align-items: center !important;
+  gap: 9px !important;
+}
+
+.logo img {
+  width: 32px !important;
+  height: 32px !important;
+  object-fit: contain !important;
+  display: block !important;
+}
+
+.logo span {
+  font-family: "Dovde", sans-serif !important;
+  color: #f3e9dc !important;
+  opacity: 1 !important;
+  font-size: 22px !important;
+  line-height: 1 !important;
+  letter-spacing: 1px !important;
+  transform: translateY(2px) !important;
+}
+@media (max-width: 768px) {
+  .logo img {
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+  .logo span {
+    font-size: 20px !important;
+    transform: translateY(2px) !important;
   }
 }
 
